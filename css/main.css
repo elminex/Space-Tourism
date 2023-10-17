@@ -1,0 +1,67 @@
+@import "normalize.css";
+@import "variables.css";
+@import "font-face.css";
+
+h1,
+h2,
+h3,
+h4,
+.subheading1 {
+    font-weight: normal;
+    font-family: var(--font-family-bellefair);
+    color: var(--color-white);
+}
+
+h1 {
+    font-size: 5rem;
+
+    @media screen and (min-width: 768px) {
+        font-size: 9.375rem;
+    }
+}
+
+h2 {
+    font-size: 6.25rem
+}
+
+h3 {
+    font-size: 3.5rem
+}
+
+h4 {
+    font-size: 2rem
+}
+
+h5 {
+    font-family: var(--font-family-barlow);
+    font-size: 1.75rem;
+    color: var(--color-blue);
+}
+
+.subheading1 {
+    font-size: 1.75rem;
+}
+
+.subheading2 {
+    font-family: var(--font-family-barlow);
+    font-size: .875rem;
+}
+
+.navtext {
+    font-size: 1rem;
+    font-family: var(--font-family-barlow);
+    color: var(--color-white);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+p {
+    font-family: var(--font-family-barlow);
+    font-size: .9375rem;
+    color: var(--color-blue);
+
+    @media screen and (min-width: 768px) {
+        font-size: 1rem;
+        line-height: 1.75;
+    }
+}
